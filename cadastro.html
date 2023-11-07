@@ -10,22 +10,22 @@
 </head>
 
 <body>
-    <nav>
-        <a href="https://www.instagram.com/braskem/" target=blank style="margin-left: 1350px;">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/600px-Instagram_icon.png" alt="" height="25" width="25">
-        </a>
-        <a href="https://www.youtube.com/@braskemsa" target=blank style="margin-left: 10px; text-decoration: none;">
-            <img src="https://cdn-icons-png.flaticon.com/128/1384/1384060.png" alt="" height="27" width="25">
-        </a>
-        <a href="https://twitter.com/braskem" target=blank style="margin-left: 10px; text-decoration: none;">
-            <img src="https://cdn-icons-png.flaticon.com/128/733/733579.png" alt="" height="" width="25">
-        </a>
-        <a href="https://www.facebook.com/Braskem/?locale=pt_BR" target=blank style="margin-left: 10px; text-decoration: none;">
-            <img src="https://cdn-icons-png.flaticon.com/128/2504/2504903.png" alt="" height="" width="25">
-        </a>
-    </nav>
-    
     <header>
+        <nav>
+            <a href="https://www.instagram.com/braskem/" target=blank>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/600px-Instagram_icon.png" alt="" height="25" width="25">
+            </a>
+            <a href="https://www.youtube.com/@braskemsa" target=blank>
+                <img src="https://cdn-icons-png.flaticon.com/128/1384/1384060.png" alt="" height="27" width="25">
+            </a>
+            <a href="https://twitter.com/braskem" target=blank>
+                <img src="https://cdn-icons-png.flaticon.com/128/733/733579.png" alt="" height="27" width="25">
+            </a>
+            <a href="https://www.facebook.com/Braskem/?locale=pt_BR" target=blank>
+                <img src="https://cdn-icons-png.flaticon.com/128/2504/2504903.png" alt="" height="27" width="25">
+            </a>
+        </nav>
+
         <div class="logo">
             <img src="https://i1.wp.com/profissaobiotec.com.br/wp-content/uploads/2018/04/braskem-logo-1.png?fit=1170%2C351"
                 alt="Braskem Logo" height="150" width="460">
@@ -33,33 +33,36 @@
     </header>
 
     <main>
-        <form class="cadastro_form">
-            <h1 class="titulo-cadastro">CADASTRO</h1>
-            <label for="usuario">Usuário:</label>
-            <input type="text" id="usuario" name="usuario">
-
-            <label for="senha">Senha:</label>
-            <input type="password" id="senha" name="senha">
-
-            <label for="DataNascimento">Data de Nascimento:</label>
-            <input type="date" id="DataNascimento" name="birthdate">
-
-            <label for="E-mail">E-mail:</label>
-            <input type="email" id="E-mail" name="email">
-
-            <label for="Foto">Fazer upload da foto:</label>
-            <input type="file" id="Foto" name="photo" accept="image/jpeg">
-
-            <br><br>
-
-            <input type="checkbox" id="Eu concordo com os termos">Eu concordo com os termos
-            <br><br>
-
-            <button type="reset"><em>Limpar</em></button>
-            <button type="submit"><em>Cadastrar</em></button>
-
-            <p>Já tem conta? <a href="login.html" class="link">Ir para Login</a></p>
-        </form>
+        <div class="cadastro-container">
+            <form class="cadastro_form">
+                <h1 class="titulo-cadastro">CADASTRO</h1>
+                <label for="usuario">Usuário:</label>
+                <input type="text" id="usuario" name="usuario">
+    
+                <label for="senha">Senha:</label>
+                <input type="password" id="senha" name="senha">
+    
+                <label for="DataNascimento">Data de Nascimento:</label>
+                <input type="date" id="DataNascimento" name="birthdate">
+    
+                <label for="E-mail">E-mail:</label>
+                <input type="email" id="E-mail" name="email">
+    
+                <label for="Foto">Fazer upload da foto:</label>
+                <input type="file" id="Foto" name="photo" accept="image/jpeg">
+    
+                <br><br>
+    
+                <input type="checkbox" id="Eu concordo com os termos">Eu concordo com os termos
+                <br><br>
+    
+                <button type="reset"><em>Limpar</em></button>
+                <button type="submit"><em>Cadastrar</em></button>
+    
+                <p>Já tem conta? <a href="login.html" class="link">Ir para Login</a></p>
+            </form>
+        </div>
+        
     </main>
 
     <footer>
