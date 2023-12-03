@@ -43,6 +43,7 @@ body::-webkit-scrollbar {
 .cadastro_form {
     height: 570px; width: 350px;
     margin: auto;
+    margin-bottom: 35px;
     padding: 15px 40px;
     padding-right: 20px;
     background-color: rgba(0, 0, 0, 0.8);
@@ -61,6 +62,7 @@ body::-webkit-scrollbar {
     text-align: center;
     height: 350px; width: 350px;
     margin: auto;
+    margin-bottom: 35px;
     padding: 15px 40px;
     padding-right: 20px;
     background-color: rgba(0, 0, 0, 0.8);
@@ -69,8 +71,6 @@ body::-webkit-scrollbar {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
 
 }
-
-
 
 label {
     color: whitesmoke;
