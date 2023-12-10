@@ -10,7 +10,7 @@ nav a {
 }
 
 nav a:hover {
-    border-color: rgb(50, 50, 41); 
+    border-color: yellow; 
 }
 
 .logo {
