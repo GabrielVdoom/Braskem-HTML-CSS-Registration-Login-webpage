@@ -41,7 +41,7 @@ body::-webkit-scrollbar {
 }
 
 .cadastro_form {
-    height: 680px; width: 325px;
+    min-height: 680px; width: 325px;
     margin: auto;
     margin-bottom: 35px;
     padding: 15px 40px;
@@ -171,15 +171,15 @@ input[name="senha-login"]
   font-style: italic;
 }
 
-button{
-    background-color:blue;
-    color: #fff;
-    font-weight: 500;
-    padding: 10px 20px;
+.botao-cadastrar {
+    background-color: rgb(255, 247, 0);
+    font-size: 20px;
+    font-weight: bolder;
+    padding: 5px 100px;
+    margin-left: 10px;
+    border-radius: 10px;
     border: none;
-    border-radius: 3px;
     cursor: pointer;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 button:hover {
