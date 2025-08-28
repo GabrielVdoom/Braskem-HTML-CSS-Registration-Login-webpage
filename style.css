@@ -60,7 +60,7 @@ body::-webkit-scrollbar {
 
 .login_form{
     text-align: center;
-    height: 350px; width: 350px;
+    min-height: 350px; min-width: 350px;
     margin: auto;
     margin-bottom: 35px;
     padding: 15px 40px;
@@ -184,14 +184,17 @@ button{
 
 button:hover {
    
-     box-shadow: 0 0 10px 0px rgba(255, 255, 255, 2.1);
     
 }
 
 .login-button {
+    background-color:blue;
+    color: #fff;
     font-size: large;
-    padding: 15px 30px;
+    padding: 15px 20px;
+    border: none;
     border-radius: 10px;
+    cursor: pointer;
 
 }
 
