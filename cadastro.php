@@ -1,13 +1,6 @@
 <?php
 
-$hostname = "Dellzilla\\SQLEXPRESS";
-$connectionOptions = array(
-    "database" => "Braskem",
-    "uid" => "",
-    "pwd" => "",
-);
-
-$conexao = sqlsrv_connect($hostname, $connectionOptions);
+require_once "conexao.php"; // Inclui o arquivo conexao.php
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $nome = $_POST["nome"];
